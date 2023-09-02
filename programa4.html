@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script>
+
+    var escolhadeforma = prompt('retangulo, quadrado, losangulo, trapezio, paralelogramo, triangulo e circulo').toLowerCase();
+
+    if (escolhadeforma === 'retangulo')
+
+     {var baseretangulo = parseFloat(prompt ('Insira a Base'))
+
+      var alturaretangulo = parseFloat(prompt('Insira a Altura'))
+
+      var calculoretangulo = baseretangulo * alturaretangulo
+
+      var resutadoretangulo = alert ('A area do seu retangulo é '+ calculoretangulo )}
+
+    else if (escolhadeforma === 'quadrado')
+     
+     {var basequadrado = parseFloat(prompt ('Insira a Base'))
+
+      var alturaquadrado = parseFloat(prompt('Insira a Altura'))
+
+      var calculoquadrado = basequadrado * alturaquadrado
+
+      var calculoquadradoaoquadrado = calculoquadrado*calculoquadrado
+    
+      var resutadoquadrado1 = alert ('A area do seu quadrado é '+ calculoquadradoaoquadrado)}
+
+    else if (escolhadeforma === 'losangulo') 
+
+     {var losangulodiagonalmaior = parseFloat(prompt('Insira a Diagonal maior'))
+
+      var losangulodiagonalmenor = parseFloat(prompt('Insira a Diagonal menor'))
+
+      var calculolosangulo = losangulodiagonalmaior * losangulodiagonalmenor / 2
+      
+      var resultadolosangulo = alert ('A area do seu Losangulo '+ calculolosangulo)}
+
+    else if (escolhadeforma === 'trapezio') 
+
+     {var trapeziobasemaior = parseFloat(prompt('Insira a Base maior'))
+
+      var trapeziobasemenor = parseFloat(prompt('Insira a Base menor'))
+
+      var alturatrapzeio    = parseFloat(prompt('Insira a Altura'))
+
+      var calculotrapezio = (trapeziobasemaior + trapeziobasemenor) * alturatrapzeio / 2
+      
+      var resultadotrapezio = alert ('A area do seu Trapezio '+ calculotrapezio)}
+
+      else if (escolhadeforma === 'paralelogramo')
+
+     {var baseparalelogramo = parseFloat(prompt ('Insira a Base'))
+
+      var alturaparalelogramo = parseFloat(prompt('Insira a Altura'))
+
+      var calculoparalelogramo = baseparalelogramo * alturaparalelogramo
+
+      var resutadoparalelogramo = alert ('A area do seu paralelogramo é igual a '+ calculoparalelogramo )}
+
+      else if (escolhadeforma === 'triangulo')
+
+      {var basetriangulo = parseFloat(prompt('Insira a Base'))
+       
+       var alturatriangulo = parseFloat(prompt('Insira a Altura'))
+
+       var calculotriangulo = basetriangulo * alturatriangulo / 2
+
+       var resultadotriangulo = alert ('A area do seu triangulo é igual a ' + calculotriangulo)}
+
+
+      else (escolhadeforma === 'circulo')
+
+      {var pi = 3.14
+      
+       var raiocirculo = parseFloat(prompt('Insira o Raio do seu circulo'))
+
+       var calculocirculo = pi * raiocirculo
+
+       var calculocirculocirculo = calculocirculo * calculocirculo
+
+       var resuldocirculo = alert ('A area do seu circulo é igual a ' + calculocirculocirculo)}
+
+
+      
+
+
+
+   
+  </script>
+</head>
+<body>
+    
+</body>
+</html>
